@@ -18,5 +18,5 @@ COPY . /app
 RUN uv sync --frozen --no-dev --no-editable
 
 # Start the MCP Fetch server when container runs
-CMD ["mcp-server-fetch"]
+CMD ["uv", "run", "mcp-server-fetch"]
 
