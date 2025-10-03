@@ -1,0 +1,5 @@
+id: mcp-fetch
+name: Fetch MCP Server
+description: A deployed MCP server that fetches web content
+servers:
+  - url: "https://successful-miracle-production-266a.up.railway.app"
